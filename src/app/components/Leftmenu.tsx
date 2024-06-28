@@ -90,7 +90,7 @@ const Leftmenu = ({type}:{type:'home'|'profile'}) => {
                     <span>Settings</span>
                 </Link>
             </div>
-            <Ad size="sm"/>
+            <Ad size={"md"}/>
         </div>
     )
 }
