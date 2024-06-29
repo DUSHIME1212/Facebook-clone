@@ -9,7 +9,10 @@ const Navbar = () => {
         <header className="flex h-16 p-4 bg-white shadow-md rounded-lg relative items-center justify-between">
             {/*left*/}
             <div className={'flex h-16 relative items-center justify-between'}>
-                <h1 className={'text-lg tracking-tighter font-semibold'}>AIMEDEV</h1>
+                <Image src={'/logo-1.png'} alt={''} className={'object-contain w-6 h-2'} fill/>
+                <h1 className={'text-lg tracking-tighter relative font-semibold'}>
+                    Aime dev
+                </h1>
             </div>
             {/*right*/}
             <div className={'hidden md:flex gap-2 w-[50%]'}>
